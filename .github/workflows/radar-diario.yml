@@ -27,11 +27,9 @@ jobs:
           python-version: '3.12'
       - name: Coletar oportunidades esportivas
         run: python scripts/coletar_radar.py
-      - name: Registrar execucao
-        run: |
-          python - <<'PY'
-          import json
-          from datetime import datetime, timezone
+      -git commit -m "Registrar execucao do radar"
+git pull --rebase origin main
+git push origin HEAD:main
 
           status = {
               "ultima_execucao": datetime.now(
