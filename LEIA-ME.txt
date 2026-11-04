@@ -1,0 +1,9 @@
+CLIK BRENNER INTELLIGENCE v0.3
+
+Envie todos os arquivos DE DENTRO deste ZIP para a RAIZ do repositório clik-intelligence no GitHub. Substitua index.html, sw.js, manifest.webmanifest e icon.svg quando solicitado. Adicione radar.json.
+
+O site lê automaticamente /clik-intelligence/radar.json ao abrir e ao tocar Atualizar dados. Inicialmente o arquivo contém lista vazia, pois a busca diária ainda não alimenta o GitHub. Não significa que não existem eventos.
+
+Para alimentar manualmente, edite radar.json com objetos events de acordo com os campos aceitos no app: id,name,date,type,city,distance,participants,revenue,cost,deadline,platform,url,notes,confidence. Não invente dados.
+
+A integração entre automação ChatGPT e GitHub não está configurada. Não compartilhe senhas/tokens. GitHub Pages hospeda arquivos estáticos.
